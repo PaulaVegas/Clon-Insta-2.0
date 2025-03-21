@@ -24,13 +24,13 @@ body {
 */
 
 .sidebar {
-    height: 100%;
-    width: 200px;
+    height: 2481px;
+    width: 244px;
     position: fixed;
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: bisque;
+    background-color: #ffffff;
     overflow-x: hidden;
     
 }
@@ -47,7 +47,7 @@ body {
 }
 
 .navbar a {
-    color: black;
+    color: inherit;
     text-decoration: none;
     display: block;
 }
@@ -59,7 +59,7 @@ body {
 }
 
 .navbar li {
-padding-top: 1em;
+padding-top: 2em;
 }
 
 .navbar img {
@@ -81,11 +81,12 @@ padding-top: 1em;
 */
 
 .profile-zone {
-    background-color: aquamarine;
+    background-color: #FAFAFA;
     height: auto;
-    margin-left: 200px;
     width: 935px;
     height: 267px;
+    margin-left: 244px;
+    padding-left: 2.5em;
     padding-top: 73px;
     padding-bottom: 44px;
     display: flex;
@@ -132,7 +133,7 @@ padding-top: 1em;
 .dots { 
     width: 40px;
     height: 30px;
-    gap: 10px;
+    margin-left: 1em;
 }
 
 .userStats {
@@ -162,13 +163,15 @@ padding-top: 1em;
 .highlightContainer {
     display: flex;
     flex-direction: row;
-    width: 548px;
-    height: 174px;
-    margin-left: 200px;
+    width: 935px;
+    height: 160px;
+    margin-left: 244px;
     padding-bottom: 44px;
-    justify-content: center;
+    padding-left: 2rem;
+    padding-top: 2em;
+    justify-content: flex-start;
     align-items: center;
-    background-color: salmon;
+    background-color: #FAFAFA;
 }
 
 .highlightContainer img {
@@ -206,10 +209,68 @@ padding-top: 1em;
  |_|                           |___/              
 */
 
-.photo-grid {
-    background-color: blueviolet;
+.gridNav {
+    display: flex;
+    flex-direction: row;
+    background-color: #FAFAFA;
     height: 100%;
-    margin-left: 200px;
+    width: 935px;
+    margin-left: 244px;
+    border-top: 1px solid #DBDBDB;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-tab {
+    display: flex;
+    flex-direction: row;
+    width: 114px;
+    height: 52px;
+    padding-top: 17px;
+    padding-right: 60px;
+    padding-bottom: 17px;
+    color: #8E8E8E;
+}
+
+.post-tab {
+    color: black;
+}
+
+.grid-tab img {
+    display: flex;
+    flex-direction: row;
+    width: 12px;
+    height: 12px;
+    
+}
+
+.grid-tab a {
+    display: flex;
+    flex-direction: row;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    gap: 10px;
+    color: inherit;
+
+}
+
+.photo-grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 935px;
+    margin-left: 244px;
+    gap: 1.5em;
+
+}
+
+.photo-grid img {
+    width: 293px;
+    height: 293px;
+
+
 }
 
 /*
@@ -226,7 +287,8 @@ padding-top: 1em;
 .publi-footer {
     background-color: gray;
     height: 100%;
-    margin-left: 200px;
+    width: 935px;
+    margin-left: 244px;
 }
 
 /*
