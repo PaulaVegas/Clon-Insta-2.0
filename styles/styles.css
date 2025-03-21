@@ -3,7 +3,7 @@
 
 * {
     box-sizing: border-box;
-    border: 1px solid black;
+    /*border: 1px solid black;*/
 }
 
 body {
@@ -29,15 +29,37 @@ body {
     left: 0;
     background-color: bisque;
     overflow-x: hidden;
+    
 }
 
-.sidebar a {
+.logo-instagram {
+    padding-left: 2em;
+    padding-top: 1em;
+}
+
+.navbar {
+    height: auto;
+    display: flex;
+    justify-content: stretch;
+}
+
+.navbar a {
     color: black;
     text-decoration: none;
     display: block;
 }
 
-.sidebar > .navbar img {
+.navbar ul {
+    text-decoration: none;
+    list-style-type: none;
+    padding-left: 1em;
+}
+
+.navbar li {
+padding-top: 1em;
+}
+
+.navbar img {
     display: inline-block;
     margin-right: 1em;
     width: 24px;
@@ -57,8 +79,117 @@ body {
 
 .profile-zone {
     background-color: aquamarine;
-    height: 100%;
+    height: auto;
     margin-left: 200px;
+    width: 935px;
+    height: 267px;
+    padding-top: 73px;
+    padding-bottom: 44px;
+    display: flex;
+}
+
+
+.profileBody {
+    width: 613px;
+    height: 150px;
+    margin-left: 101px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+
+.profilePic img {
+    width: 150px;
+    height: 150px;
+    border-radius: 150px;
+}
+
+.userAccount {
+    display: flex;
+    flex-direction: row;
+    width: 613px;
+    height: 40px;
+}
+
+.userName {
+    font-weight: 350;
+    font-size: 28px;
+    line-height: 32px;
+}
+
+.followButton {
+    width: 110px;
+    height: 32px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 20px;
+    gap: 10px;
+}
+
+/*Faltaría alinear vertical*/
+.dots { 
+    width: 40px;
+    height: 30px;
+    gap: 10px;
+}
+
+.userStats {
+    display: flex;
+    flex-direction: row;
+    width: 613px;
+    height: 58px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.posts {
+    padding-right: 40px;
+}
+
+.followers {
+    padding-right: 40px;
+}
+
+.userBio {
+    flex-direction: row;
+    font-weight: 600;
+    line-height: 24px;
+    font-size: 16px;
+}
+
+.highlightContainer {
+    display: flex;
+    flex-direction: row;
+    width: 548px;
+    height: 174px;
+    margin-left: 200px;
+    padding-bottom: 44px;
+    justify-content: center;
+    align-items: center;
+    background-color: salmon;
+}
+
+.highlightContainer img {
+    width: 67px;
+    height: 67px;
+    margin-top: 5px;
+    margin-left: 5px;
+    border-radius: 56px;
+    
+}
+
+.highlights {
+    display: flex;
+    flex-direction: row;
+    width: 125px;
+    height: 130px;
+    gap: 65px;
+}
+
+.highlights p {
+    height: 31px;
+    width: 79px;
+    margin-top: 5px;
+    text-align: center;
 }
 
 /*
@@ -108,20 +239,20 @@ body {
 
 @media screen and (max-width: 800px) {
     .sidebar {
-        display: flex;
-        flex-direction: row;
-        width: 100%;
-        height: 3em;
-        position: relative;    
+        width: 2.5em; 
     }
-
-    .sidebar .navbar {
-        display: flex;
-        flex: 1;
-        flex-direction: row;
-        text-align: center;
+    .nav-text {
+        display: none;
     }
-    
+    .nav-item {
+        justify-content: center;
+    }
+    .nav-icon {
+        margin-right: 0;
+    }
+    .navbar ul {
+        padding-left: 0;
+    }
     .sidebar .logo-instagram {
         display: none;
     }
@@ -129,14 +260,14 @@ body {
         display: flex;
         height: auto;
         width: 100%;
-        margin-left: auto;
+        margin-left: 2em;
     }
    
     .photo-grid {
         display: flex;
         height: auto;
         width: 100%;
-        margin-left: auto;
+        margin-left: 2em;
     }
     .publi-footer {
         display: none;
