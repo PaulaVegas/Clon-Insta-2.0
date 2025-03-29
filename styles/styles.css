@@ -11,7 +11,6 @@
 
 body {
     font-family: 'Roboto', 'Geneva','Segoe UI', Verdana, sans-serif;
-
 }
 
 
@@ -285,12 +284,39 @@ padding-top: 2em;
 */
 
 .publi-footer {
-    background-color: gray;
+    display: inline-block;
     height: 100%;
     width: 935px;
     margin-left: 244px;
+    color:#8E8E8E;
+    margin-top: 2em;
+    font-size: 14px;
+
+}
+.publi-footer ul {
+    text-decoration: none;
+    list-style-type: none;
+    padding-bottom:1em;
 }
 
+.footer1 ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+}
+.footer1 a{
+    color:inherit;
+    text-decoration: none;
+}
+.footer2 ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    margin-left: 7.7em;
+    gap: 2em;
+}
 /*
                      _ _                               _           
                     | (_)                             (_)          
@@ -323,16 +349,53 @@ padding-top: 2em;
     }
     .profile-zone {
         display: flex;
+        flex-direction: row;
         height: auto;
         width: 100%;
         margin-left: 2em;
     }
-   
-    .photo-grid {
+    /* .profilePic {
         display: flex;
-        height: auto;
+        flex-direction: row;
+        width: 100%;
+    }
+    .profileBody {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+    .userAccount {
+        display: flex;
+        width: 100%;
+    }
+    .userStats {
+        display: flex;
+    
+        width: 100%;
+    } */
+    .highlightContainer {
+        display: flex;
         width: 100%;
         margin-left: 2em;
+    }
+
+    .gridNav {
+        display: flex;
+        margin-left: 0;
+    }
+    .photo-grid {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        height: auto;
+        width: 100%;
+        margin-left: 0em;
+        gap: 0.5;
+    }
+    .photo-grid img {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
     }
     .publi-footer {
         display: none;
