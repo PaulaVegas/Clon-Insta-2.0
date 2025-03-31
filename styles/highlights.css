@@ -1,0 +1,37 @@
+.highlightContainer {
+    display: flex;
+    flex-direction: row;
+    width: 935px;
+    height: 160px;
+    margin-left: 244px;
+    padding-bottom: 44px;
+    padding-left: 2rem;
+    padding-top: 2em;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #FAFAFA;
+}
+
+.highlightContainer img {
+    width: 67px;
+    height: 67px;
+    margin-top: 5px;
+    margin-left: 5px;
+    border-radius: 56px;
+    
+}
+
+.highlights {
+    display: flex;
+    flex-direction: row;
+    width: 125px;
+    height: 130px;
+    gap: 65px;
+}
+
+.highlights p {
+    height: 31px;
+    width: 79px;
+    margin-top: 5px;
+    text-align: center;
+}

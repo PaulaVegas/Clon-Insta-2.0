@@ -1,0 +1,61 @@
+.gridNav {
+    display: flex;
+    flex-direction: row;
+    background-color: #FAFAFA;
+    height: 100%;
+    width: 935px;
+    margin-left: 244px;
+    border-top: 1px solid #DBDBDB;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-tab {
+    display: flex;
+    flex-direction: row;
+    width: 114px;
+    height: 52px;
+    padding-top: 17px;
+    padding-right: 60px;
+    padding-bottom: 17px;
+    color: #8E8E8E;
+}
+
+.post-tab {
+    color: black;
+}
+
+.grid-tab img {
+    display: flex;
+    flex-direction: row;
+    width: 12px;
+    height: 12px;
+    
+}
+
+.grid-tab a {
+    display: flex;
+    flex-direction: row;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    gap: 10px;
+    color: inherit;
+
+}
+
+.photo-grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 935px;
+    margin-left: 244px;
+    gap: 1.5em;
+
+}
+
+.photo-grid img {
+    width: 293px;
+    height: 293px;
+}

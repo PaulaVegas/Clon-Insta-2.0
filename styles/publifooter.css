@@ -1,0 +1,34 @@
+.publi-footer {
+    display: inline-block;
+    height: 100%;
+    width: 935px;
+    margin-left: 244px;
+    color:#8E8E8E;
+    margin-top: 2em;
+    font-size: 14px;
+
+}
+.publi-footer ul {
+    text-decoration: none;
+    list-style-type: none;
+    padding-bottom:1em;
+}
+
+.footer1 ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+}
+.footer1 a{
+    color:inherit;
+    text-decoration: none;
+}
+.footer2 ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    margin-left: 7.7em;
+    gap: 2em;
+}
