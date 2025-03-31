@@ -65,7 +65,8 @@
 }
 
 .photo-grid img:hover {
-    width: 600px;
+    width: 110%;
     height: auto;
-    transition: 0.3s;
+    transition: 0.2s;
+    cursor: pointer;
 }
