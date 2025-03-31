@@ -64,9 +64,3 @@
     height: 293px;
 }
 
-.photo-grid img:hover {
-    width: 110%;
-    height: auto;
-    transition: 0.2s;
-    cursor: pointer;
-}
