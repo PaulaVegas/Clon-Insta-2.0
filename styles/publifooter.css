@@ -32,3 +32,9 @@
     margin-left: 7.7em;
     gap: 2em;
 }
+.publi-footer a:hover {
+    color: #000000;
+    font-size: 110%;
+    transition: 0.3s;
+    text-decoration: underline;
+}

@@ -35,3 +35,8 @@
     margin-top: 5px;
     text-align: center;
 }
+.highlightContainer img:hover {
+    width: 115px;
+    height: auto;
+    transition: 0.3s;
+}

@@ -43,7 +43,11 @@
     color: inherit;
 
 }
-
+.grid-tab a:hover {
+    color: #000000;
+    font-size: 110%;
+    transition: 0.3s;
+}
 .photo-grid {
     display: flex;
     flex-direction: row;
@@ -58,4 +62,10 @@
 .photo-grid img {
     width: 293px;
     height: 293px;
+}
+
+.photo-grid img:hover {
+    width: 600px;
+    height: auto;
+    transition: 0.3s;
 }

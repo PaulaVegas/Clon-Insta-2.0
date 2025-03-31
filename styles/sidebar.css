@@ -44,3 +44,8 @@ padding-top: 2em;
     height: 24px;
     vertical-align: middle;
 }
+.navbar a:hover {
+    font-size: 120%;
+    transition: 0.2s;
+    color: #262626;
+}
